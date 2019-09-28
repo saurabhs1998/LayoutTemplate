@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main page</title>
+	<link rel="stylesheet" type="text/css" href="drop.css">
+</head>
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+	<img src="lpupic3.png">
+	<div class="a">
+		<h1>WATER</h1>
+	</div>
+	<div>
+		<nav>
+			<ul>
+				<li>
+					<div class="dropdown">
+						<a href="my new projec.html">HOME</a>
+						<ul class="dropdown-menu">
+					    </ul>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<a href="">Quantity</a>
+						<ul class="dropdown-menu">
+						<li><a href="">1 Jug</a></li>
+						<li><a href="">3 Jug</a></li>
+						<li><a href="">5 Jug</a></li>
+					    </ul>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<a href="">Big container</a>
+						<ul class="dropdown-menu">
+						<li><a href="">1 Jug</a></li>
+						<li><a href="">3 Jug</a></li>
+						<li><a href="">5 Jug</a></li>
+					    </ul>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<a href="">Contact Us</a>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<a href="">About </a>
+						<input  style=" background-color: pink;" type="text" placeholder="Search.." >
+						<button style="padding-top: 4px; margin-left: 20px; background-color:red;  color: black;width: 80px;height: 32px;" type="submit" value="submit">search</button>
+					</div>
+				</li>
+			</ul>
+		</nav>
+    </div>
+<div>
+
+<div class="w3-content w3-section" style="max-width:800px">
+  <img class="mySlides" src="2.jpg" style="width:1500px; height: 300px;">
+  <img class="mySlides" src="3.jpg" style="width:1500px; height: 300px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br><br><br>
+
+	<a class="c" href="sport.html">Login</a>
+	<a class="d" href="login page.html">New User Registration</a>
+</div>
+<div class="ee">
+	<div>
+		<h1 class="f">About to know!!</h1>
+	</div>
+	<div>
+		<h1 class="f">Feedback for us!!</h1>
+	</div>
+	<div>
+		<h1 class="f">Contact Us!!</h1>
+	</div>
+	
+</div>
+</body>
+</html>

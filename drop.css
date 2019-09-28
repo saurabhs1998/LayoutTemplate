@@ -1,0 +1,97 @@
+body
+{
+	background-color: #F3E2A9
+}
+.a
+{
+	text-align: center;
+}
+nav
+{
+	background-color: black;
+}
+nav li
+{
+	margin-top: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	height: 40px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+  display: inline-block;
+  padding-left: 90px;
+  padding-right: 60px;
+  transition: background 0.4s;
+}
+nav ul li a:hover {
+  background: #11E0D5;
+  color: black;
+}
+.dropdown-menu {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  background-color: pink;
+  padding-left: 0px;
+  text-overflow: hide
+}
+.dropdown-menu li {
+  display: block;
+  width: 200px;
+}
+
+.dropdown-menu li a {
+  width: 110px;
+  padding-right: 0px;
+  padding-left: px;
+  overflow: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 4px;
+  margin-right: 16px;
+  font-size: 17px;
+  padding-left: 5px;
+}
+.c
+{
+	background-color: #173B0B;
+	padding: 12px 20px;
+	text-decoration: none;
+	color: white;
+}
+.d
+{
+	background-color: #173B0B;
+	padding: 12px 15px;
+	text-decoration: none;
+	color: white;
+
+}
+.ee
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px; 
+}
+.ee>div
+{
+  background-color: #566E4E;
+  width: 600px;
+  height: 300px;
+  margin-right: 5px;
+}
+.f
+{
+  text-align: center;
+}
